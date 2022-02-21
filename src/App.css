@@ -1,0 +1,25 @@
+:root{
+  --primary : #d81e5b;
+  --secondary : #8c38ff;
+  --dark : #131a26;
+  --light: #eee;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fire Sans' , sans-serif;
+}
+
+body{
+  background-color: var(--light);
+}
+
+.app{
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
